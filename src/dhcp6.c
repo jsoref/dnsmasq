@@ -51,7 +51,7 @@ void dhcp6_init(void)
       !set_ipv6pktinfo(fd))
     die (_("cannot create DHCPv6 socket: %s"), NULL, EC_BADNET);
   
- /* When bind-interfaces is set, there might be more than one dnmsasq
+ /* When bind-interfaces is set, there might be more than one dnsmasq
      instance binding port 547. That's OK if they serve different networks.
      Need to set REUSEADDR|REUSEPORT to make this posible.
      Handle the case that REUSEPORT is defined, but the kernel doesn't 

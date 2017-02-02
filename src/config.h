@@ -368,7 +368,7 @@ HAVE_SOCKADDR_SA_LEN
 #endif
 
 /* Define a string indicating which options are in use.
-   DNSMASQP_COMPILE_OPTS is only defined in dnsmasq.c */
+   DNSMASQ_COMPILE_OPTS is only defined in dnsmasq.c */
 
 #ifdef DNSMASQ_COMPILE_OPTS
 
