@@ -144,13 +144,13 @@ Q: Who are Verisign, what do they have to do with the bogus-nxdomain
    option in dnsmasq and why should I wory about it?
 
 A: [note: this was written in September 2003, things may well change.]
-   Versign run the .com and .net top-level-domains. They have just
+   Verisign run the .com and .net top-level-domains. They have just
    changed the configuration of their servers so that unknown .com and
    .net domains, instead of returning an error code NXDOMAIN, (no such
-   domain) return the address of a host at Versign which runs a web
+   domain) return the address of a host at Verisign which runs a web
    server showing a search page. Most right-thinking people regard
    this new behaviour as broken :-).  You can test to see if you are
-   suffering Versign brokenness by run a command like 
+   suffering Verisign brokenness by run a command like 
    
    host jlsdajkdalld.com
 
