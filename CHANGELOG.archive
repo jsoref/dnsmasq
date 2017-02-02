@@ -997,7 +997,7 @@ release 2.8
 
 	     Add checks against DHCP clients which return zero-length
 	     hostnames. This avoids the potential lease-loss problems
-	     reffered to above. Also, if a client sends a hostname when
+	     referred to above. Also, if a client sends a hostname when
 	     it creates a lease but subsequently sends no or a
 	     zero-length hostname whilst renewing, continue to use the
 	     existing hostname, don't wipe it out. 
