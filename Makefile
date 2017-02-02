@@ -142,7 +142,7 @@ bloatcheck : $(BUILDDIR)/dnsmasq_baseline mostly_clean all
            $(top)/bld/bloat-o-meter dnsmasq_baseline dnsmasq; \
            size dnsmasq_baseline dnsmasq
 
-# rules below are targets in recusive makes with cwd=$(BUILDDIR)
+# rules below are targets in recursive makes with cwd=$(BUILDDIR)
 
 $(copts_conf): $(hdrs)
 	@rm -f *.o .copts_*
