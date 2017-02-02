@@ -180,7 +180,7 @@ A: There are a couple of configuration gotchas which have been
    whilst the ISC one works.
 
    The first thing to check is the broadcast address set for the
-   ethernet interface. This is normally the adddress on the connected
+   ethernet interface. This is normally the address on the connected
    network with all ones in the host part. For instance if the 
    address of the ethernet interface is 192.168.55.7 and the netmask
    is 255.255.255.0 then the broadcast address should be
