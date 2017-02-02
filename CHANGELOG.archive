@@ -2319,7 +2319,7 @@ version 2.40
 	    leases file and passed to the lease-change
 	    script. Suggestion from Ben Voigt.
 
-	    Re-run the lease chamge script with an "old" event for
+	    Re-run the lease change script with an "old" event for
 	    each lease when dnsmasq receives a SIGHUP.
 
 	    Added more useful exit codes, including passing on a
