@@ -358,7 +358,7 @@ static int verify(struct blockdata *key_data, unsigned int key_len, unsigned cha
    character. In theory, if all the characters in a name were /000 or
    '.' or NAME_ESCAPE then all would have to be escaped, so the 
    presentation format would be twice as long as the spec (1024). 
-   The buffers are all delcared as 2049 (allowing for the trailing zero) 
+   The buffers are all declared as 2049 (allowing for the trailing zero) 
    for this reason.
 */
 static int to_wire(char *name)
