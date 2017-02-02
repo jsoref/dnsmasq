@@ -346,7 +346,7 @@ version 2.72
             Add ra-advrouter mode, for RFC-3775 mobile IPv6 support.
 
 	    Add support for "ipsets" in *BSD, using pf. Thanks to 
-	    Sven Falempim for the patch.
+	    Sven Falempin for the patch.
 
 	    Fix race condition which could lock up dnsmasq when an 
 	    interface goes down and up rapidly. Thanks to Conrad 
