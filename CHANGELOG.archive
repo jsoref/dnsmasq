@@ -346,7 +346,7 @@ release 1.10  Log warnings if resolv.conf or dhcp.leases are not
 
 	      Added -S option to directly specify upstream servers and
               added ability to direct queries for specific domains to
-              specfic servers. Suggested by Jens Vonderheide.
+              specific servers. Suggested by Jens Vonderheide.
 
 	      Upgraded random ID generation - patch from Rob Funk.	      
 
