@@ -1036,7 +1036,7 @@ version 2.61
 	    renumbering at least possible.
 
 	    Fix bug in address6_available() which caused DHCPv6 lease
-	    aquisition to fail if more than one dhcp-range in use.
+	    acquisition to fail if more than one dhcp-range in use.
 
 	    Provide RDNSS and DNSSL data in router advertisements,
 	    using the settings provided for DHCP options
