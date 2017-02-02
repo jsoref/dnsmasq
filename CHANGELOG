@@ -107,7 +107,7 @@ version 2.76
 	    removal of entries in the ARP or nieghbour tables.
 
 	    Extend --add-mac to allow a new encoding of the MAC address 
-	    as base64, by configurting --add-mac=base64
+	    as base64, by configuring --add-mac=base64
  
 	    Add --add-cpe-id option.
 
