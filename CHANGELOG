@@ -256,7 +256,7 @@ version 2.73
 	    good idea, but I've been persuaded that there are 
 	    sometimes reasons to do it. (Step forward, GFW).
 	    To avoid misuse, there's a hard limit on the TTL 
-	    floor of one hour. Thansk to RinSatsuki for the patch.
+	    floor of one hour. Thanks to RinSatsuki for the patch.
 
 	    Cope with multiple interfaces with the same link-local 
 	    address. (IPv6 addresses are scoped, so this is allowed.)
@@ -847,7 +847,7 @@ version 2.64
 	    Add SetDomainServers method in DBus interface. Thanks to
 	    Roy Marples for the patch.
 
-	    Fix build with later Lua libraries. Thansk to Cristian
+	    Fix build with later Lua libraries. Thanks to Cristian
 	    Rodriguez for the patch.
 
 	    Add --max-cache-ttl option. Thanks to Dennis Kaarsemaker
