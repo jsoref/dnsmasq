@@ -699,7 +699,7 @@ static int make_sock(union mysockaddr *addr, int type, int dienow)
   
   if ((fd = socket(family, type, 0)) == -1)
     {
-      int port, errsav;
+      int port, errsave;
       char *s;
 
       /* No error if the kernel just doesn't support this IP flavour */
@@ -709,7 +709,7 @@ static int make_sock(union mysockaddr *addr, int type, int dienow)
 	return -1;
       
     err:
-      errsav = errno;
+      errsave = errno;
       port = prettyprint_addr(addr, daemon->addrbuff);
       if (!option_bool(OPT_NOWILD) && !option_bool(OPT_CLEVERBIND))
 	sprintf(daemon->addrbuff, "port %d", port);
@@ -718,7 +718,7 @@ static int make_sock(union mysockaddr *addr, int type, int dienow)
       if (fd != -1)
 	close (fd);
 	
-      errno = errsav;
+      errno = errsave;
 
       if (dienow)
 	{
