@@ -1852,7 +1852,7 @@ size_t answer_request(struct dns_header *header, char *limit, size_t qlen,
   /* set RA flag */
   header->hb4 |= HB4_RA;
    
-  /* authoritive - only hosts and DHCP derived names. */
+  /* authoritative - only hosts and DHCP derived names. */
   if (auth)
     header->hb3 |= HB3_AA;
   
