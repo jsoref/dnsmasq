@@ -1389,7 +1389,7 @@ version 2.21
 	    recursive queries.
 
 	    Fix DHCP address allocation problem when netid tags are in
-	    use. Thanks to Will Murnane for the bug report and
+	    use. Thanks to Will Murname for the bug report and
 	    subsequent testing.
 
 	    Add an additional data section to the reply for MX and SRV
