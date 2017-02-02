@@ -1467,7 +1467,7 @@ static int prove_non_existence_nsec(struct dns_header *header, size_t plen, unsi
 		  if (offset < p[1] && (p[offset+2] & mask) != 0)
 		    return 0;
 		  
-		  break; /* finshed checking */
+		  break; /* finished checking */
 		}
 	      
 	      rdlen -= p[1];
@@ -1625,7 +1625,7 @@ static int check_nsec3_coverage(struct dns_header *header, size_t plen, int dige
 			if (offset < p[1] && (p[offset+2] & mask) != 0)
 			  return 0;
 			
-			break; /* finshed checking */
+			break; /* finished checking */
 		      }
 		    
 		    rdlen -= p[1];
