@@ -1029,7 +1029,7 @@ version 2.61
 
 	    Add a new DHCP lease time keyword, "deprecated" for
 	    --dhcp-range. This is only valid for IPv6, and sets the
-	    preffered lease time for both DHCP and RA to zero. The
+	    preferred lease time for both DHCP and RA to zero. The
 	    effect is that clients can continue to use the address 
 	    for existing connections, but new connections will use
             other addresses, if they exist. This makes hitless
