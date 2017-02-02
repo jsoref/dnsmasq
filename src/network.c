@@ -644,7 +644,7 @@ int enumerate_interfaces(int reset)
       /* Garbage-collect listeners listening on addresses that no longer exist.
 	 Does nothing when not binding interfaces or for listeners on localhost, 
 	 since the ->iface field is NULL. Note that this needs the protections
-	 against re-entrancy, hence it's here.  It also means there's a possibility,
+	 against reentrancy, hence it's here.  It also means there's a possibility,
 	 in OPT_CLEVERBIND mode, that at listener will just disappear after
 	 a call to enumerate_interfaces, this is checked OK on all calls. */
       struct listener *l, *tmp, **up;
