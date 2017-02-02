@@ -1,7 +1,7 @@
 /*
  dhcp_release6 --iface <interface> --client-id <client-id> --server-id
  server-id --iaid <iaid>  --ip <IP>  [--dry-run] [--help]
- MUST be run as root - will fail othewise
+ MUST be run as root - will fail otherwise
  */
 
 /* Send a DHCPRELEASE message  to IPv6 multicast address  via the specified interface
