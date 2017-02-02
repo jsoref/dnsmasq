@@ -56,7 +56,7 @@ release 0.95  Major rewrite: remove calls to gethostbyname() and talk
               any more memory after start-up. The NAT-like forwarding was
               inspired by a suggestion from Eli Chen <eli@routefree.com>
 
-release 0.96  Fixed embarrasing thinko in cache linked-list code.
+release 0.96  Fixed embarrassing thinko in cache linked-list code.
                              
 release 0.98  Some enhancements and bug-fixes. 
               Thanks to "Denis Carre" <denis.carre@laposte.net> and Martin 
