@@ -232,7 +232,7 @@ HAVE_SOCKADDR_SA_LEN
    defined if struct sockaddr has sa_len field (*BSD) 
 */
 
-/* Must preceed __linux__ since uClinux defines __linux__ too. */
+/* Must precede __linux__ since uClinux defines __linux__ too. */
 #if defined(__uClinux__)
 #define HAVE_LINUX_NETWORK
 #define HAVE_GETOPT_LONG
