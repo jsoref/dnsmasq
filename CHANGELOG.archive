@@ -838,7 +838,7 @@ release 2.4
 	     by Chad Skeeters.
 
 	     Fixed bug in /etc/ethers parsing code triggered by tab
-	     characters. Qudos to Dag Wieers for hepling to nail that
+	     characters. Qudos to Dag Wieers for helping to nail that
 	     one.
  	     
 	     Added "bind-interfaces" option correctly.	     
