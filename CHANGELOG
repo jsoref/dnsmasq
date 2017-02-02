@@ -981,7 +981,7 @@ version 2.61
 
 	    Add --dhcp-duid to allow DUID-EN uids to be used.
 
-	    Explicity send DHCPv6 replies to the correct port, instead
+	    Explicitly send DHCPv6 replies to the correct port, instead
 	    of relying on clients to send requests with the correct
 	    source address, since at least one client in the wild gets
 	    this wrong. Thanks to Conrad Kostecki for help tracking
