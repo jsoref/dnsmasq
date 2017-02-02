@@ -99,7 +99,7 @@ HAVE_IDN
 	 *-i18n makefile targets, even if HAVE_IDN is not explicitly set.
 
 HAVE_CONNTRACK
-   define this to include code which propogates conntrack marks from
+   define this to include code which propagates conntrack marks from
    incoming DNS queries to the corresponding upstream queries. This adds
    a build-dependency on libnetfilter_conntrack, but the resulting binary will
    still run happily on a kernel without conntrack support.
