@@ -1491,7 +1491,7 @@ version 2.53
 	    to be added to dnsmasq configuration which then supplies
 	    DHCP and DNS services to that interface, without affecting
 	    what services are supplied to other interfaces and 
-	    irrespective of the existance or lack of 
+	    irrespective of the existence or lack of 
                 interface=<interface> 
             lines elsewhere in the dnsmasq configuration. The idea is
 	    that such a line can be added automatically by libvirt

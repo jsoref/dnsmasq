@@ -62,7 +62,7 @@ dnsmasq (2.76-1) unstable; urgency=low
    * New upstream. (closes: #798586)
    * Use /run/dnsmasq directly, rather than relying on link from /var/run
      to avoid problems before /var is mounted. (closes: #800351)
-   * Test for the existance of /usr/share/doc/dnsmasq rather then
+   * Test for the existence of /usr/share/doc/dnsmasq rather then
      /etc/dnsmasq.d/README in the daemon startup script. (closes: #819856)
    * Add --help to manpage and mention dhcp6 in summary. (closes: #821226)
 
@@ -1040,7 +1040,7 @@ dnsmasq (1.18-1) unstable; urgency=low
    * New upstream which does round-robin. (closes: #215460)
    * Removed conflicts with other dns servers since it is now
      possible to control exactly where dnsmasq listens on multi-homed 
-     hosts, making co-existance with another nameserver 
+     hosts, making co-existence with another nameserver 
      a viable proposition. (closes #176163)
    * New upstream allows _ in hostnames and check for illegal
      names in /etc/hosts. (closes: #218842)

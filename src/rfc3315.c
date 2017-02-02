@@ -381,7 +381,7 @@ static int dhcp6_no_relay(struct state *state, int msg_type, void *inbuff, size_
   
   /* dhcp-match. If we have hex-and-wildcards, look for a left-anchored match.
      Otherwise assume the option is an array, and look for a matching element. 
-     If no data given, existance of the option is enough. This code handles 
+     If no data given, existence of the option is enough. This code handles 
      V-I opts too. */
   for (opt_cfg = daemon->dhcp_match6; opt_cfg; opt_cfg = opt_cfg->next)
     {

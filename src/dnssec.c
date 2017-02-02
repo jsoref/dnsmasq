@@ -1910,7 +1910,7 @@ static int zone_status(char *name, int class, char *keyname, time_t now)
       if (!(crecp = cache_find_by_name(NULL, keyname, now, F_DS)))
 	return STAT_NEED_DS;
       
-       /* F_DNSSECOK misused in DS cache records to non-existance of NS record.
+       /* F_DNSSECOK misused in DS cache records to non-existence of NS record.
 	  F_NEG && !F_DNSSECOK implies that we've proved there's no DS record here,
 	  but that's because there's no NS record either, ie this isn't the start
 	  of a zone. We only prove that the DNS tree below a node is unsigned when

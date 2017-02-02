@@ -436,7 +436,7 @@ void check_log_writer(int force)
 void flush_log(void)
 {
   /* write until queue empty, but don't loop forever if there's
-   no connection to the syslog in existance */
+   no connection to the syslog in existence */
   while (log_fd != -1)
     {
       struct timespec waiter;
