@@ -422,7 +422,7 @@ static struct {
   { LOPT_SCRIPTUSR, ARG_ONE, "<username>", gettext_noop("Run lease-change scripts as this user."), NULL },
   { LOPT_SCRIPT_ARP, OPT_SCRIPT_ARP, NULL, gettext_noop("Call dhcp-script with changes to local ARP table."), NULL },
   { '7', ARG_DUP, "<path>", gettext_noop("Read configuration from all the files in this directory."), NULL },
-  { '8', ARG_ONE, "<facilty>|<file>", gettext_noop("Log to this syslog facility or file. (defaults to DAEMON)"), NULL },
+  { '8', ARG_ONE, "<facility>|<file>", gettext_noop("Log to this syslog facility or file. (defaults to DAEMON)"), NULL },
   { '9', OPT_LEASE_RO, NULL, gettext_noop("Do not use leasefile."), NULL },
   { '0', ARG_ONE, "<integer>", gettext_noop("Maximum number of concurrent DNS queries. (defaults to %s)"), "!" }, 
   { LOPT_RELOAD, OPT_RELOAD, NULL, gettext_noop("Clear DNS cache when reloading %s."), RESOLVFILE },
