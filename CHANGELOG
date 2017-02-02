@@ -838,7 +838,7 @@ version 2.64
 	    Don't report spurious netlink errors, regression in
 	    2.63. Thanks to Vladislav Grishenko for the patch.
 
-	    Flag DHCP or DHCPv6 in starup logging. Thanks to 
+	    Flag DHCP or DHCPv6 in startup logging. Thanks to 
 	    Vladislav Grishenko for the patch.
 
 	    Add SetServersEx method in DBus interface. Thanks to Dan
