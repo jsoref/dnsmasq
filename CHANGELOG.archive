@@ -258,7 +258,7 @@ release 1.7   Fix a problem with cache not clearing properly
               on receipt of SIGHUP. Bug spotted by Sat Deshpande.
 
               In group-id changing code:
-	      1) Drop supplimentary groups.
+	      1) Drop supplementary groups.
               2) Change gid before dropping root (patch from Soewono Effendi.)
               3) Change group to "dip" if it exists, to allow access
                  to /etc/ppp/resolv.conf (suggestion from Jorg Sommer.)

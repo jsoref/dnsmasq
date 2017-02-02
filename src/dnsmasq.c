@@ -583,7 +583,7 @@ int main (int argc, char **argv)
       int bad_capabilities = 0;
       gid_t dummy;
       
-      /* remove all supplimentary groups */
+      /* remove all supplementary groups */
       if (gp && 
 	  (setgroups(0, &dummy) == -1 ||
 	   setgid(gp->gr_gid) == -1))
