@@ -358,7 +358,7 @@ version 2.72
 	    Fix failure to build against Nettle-3.0. Thanks to Steven 
 	    Barth for spotting this and finding the fix. 
 	    
-	    When assigning existing DHCP leases to intefaces by comparing 
+	    When assigning existing DHCP leases to interfaces by comparing 
 	    networks, handle the case that two or more interfaces have the
 	    same network part, but different prefix lengths (favour the
 	    longer prefix length.) Thanks to Lung-Pin Chang for the 

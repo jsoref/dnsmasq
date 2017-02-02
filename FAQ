@@ -276,7 +276,7 @@ A: Dnsmasq from v2.63 can operate in one of three different "networking
    The mode chosen has four different effects: co-existence with other
    servers, semantics of --interface access control, effect of new
    interfaces, and legality of --interface specifications for
-   non-existent inferfaces. We will deal with these in order.
+   non-existent interfaces. We will deal with these in order.
 
    A dnsmasq instance running in wildcard mode precludes a machine from
    running a second instance of dnsmasq or any other DNS, TFTP or DHCP

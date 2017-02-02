@@ -178,7 +178,7 @@ int iface_check(int family, struct all_addr *addr, char *name, int *auth)
 }
 
 
-/* Fix for problem that the kernel sometimes reports the loopback inerface as the
+/* Fix for problem that the kernel sometimes reports the loopback interface as the
    arrival interface when a packet originates locally, even when sent to address of 
    an interface other than the loopback. Accept packet if it arrived via a loopback 
    interface, even when we're not accepting packets that way, as long as the destination
