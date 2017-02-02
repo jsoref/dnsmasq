@@ -88,7 +88,7 @@ release 0.991 Added -b flag: when set causes dnsmasq to always answer
               Fixed a bug which stopped dnsmasq working on a box with
               two or more interfaces with the same IP address. 
 
-              Fixed cacheing of CNAMEs. Previously, a CNAME which pointed
+              Fixed caching of CNAMEs. Previously, a CNAME which pointed
               to  a name with many A records would not have all the addresses
               returned when being answered from the cache.
 
