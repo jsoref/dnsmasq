@@ -123,7 +123,7 @@ merge :
 		echo -n msgmerge $(PO)/$$f && $(MSGMERGE) --no-wrap -U $(PO)/$$f $(BUILDDIR)/dnsmasq.pot; \
 	done
 
-# Cannonicalise .po file.
+# Canonicalise .po file.
 %.po : 
 	@cd $(BUILDDIR) && $(MAKE) -f $(top)/Makefile dnsmasq.pot
 	mv $(PO)/$*.po $(PO)/$*.po.orig && $(MSGMERGE) --no-wrap $(PO)/$*.po.orig $(BUILDDIR)/dnsmasq.pot >$(PO)/$*.po; 
