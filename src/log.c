@@ -154,7 +154,7 @@ static void log_write(void)
    
   while (entries)
     {
-      /* The data in the payoad is written with a terminating zero character 
+      /* The data in the payload is written with a terminating zero character 
 	 and the length reflects this. For a stream connection we need to 
 	 send the zero as a record terminator, but this isn't done for a 
 	 datagram connection, so treat the length as one less than reality 
