@@ -635,7 +635,7 @@ release 2.0
              dynamic allocation.
 
 	     Allow dhcp-host options for the same host with different
-	     IP adresses where the correct one will be selected for
+	     IP addresses where the correct one will be selected for
 	     the network the host appears on.
 
 	     Fix parsing of --dhcp-option to allow more than one
