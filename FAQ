@@ -205,7 +205,7 @@ A: By default, none of the DHCP clients send the host-name when asking
    send with the "hostname" keyword in /etc/network/interfaces. (See
    "man interfaces" for details.) That doesn't work for dhclient, were
    you have to add something like "send host-name daisy" to
-   /etc/dhclient.conf [Update: the lastest dhcpcd packages _do_ send
+   /etc/dhclient.conf [Update: the latest dhcpcd packages _do_ send
    the hostname by default.
 
 Q: I'm network booting my machines, and trying to give them static
