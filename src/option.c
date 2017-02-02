@@ -497,7 +497,7 @@ static struct {
   { 0, 0, NULL, NULL, NULL }
 }; 
 
-/* We hide metacharaters in quoted strings by mapping them into the ASCII control
+/* We hide metacharacters in quoted strings by mapping them into the ASCII control
    character space. Note that the \0, \t \b \r \033 and \n characters are carefully placed in the
    following sequence so that they map to themselves: it is therefore possible to call
    unhide_metas repeatedly on string without breaking things.
