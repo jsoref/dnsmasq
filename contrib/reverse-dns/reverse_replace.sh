@@ -8,7 +8,7 @@
 # usually tell ou more than the ones from reverse 
 # lookups. 
 #
-# This has been tested on debian and asuswrt. Plese
+# This has been tested on debian and asuswrt. Please
 # report successful tests on other platforms.
 #
 # Author: Joachim Zobel <jz-2014@heute-morgen.de>
