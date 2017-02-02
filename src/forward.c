@@ -1448,7 +1448,7 @@ void receive_query(struct listener *listen, time_t now)
 }
 
 #ifdef HAVE_DNSSEC
-/* Recurse up the key heirarchy */
+/* Recurse up the key hierarchy */
 static int tcp_key_recurse(time_t now, int status, struct dns_header *header, size_t n, 
 			   int class, char *name, char *keyname, struct server *server, 
 			   int have_mark, unsigned int mark, int *keycount)
