@@ -112,10 +112,10 @@ void ra_init(time_t now)
    daemon->icmp6fd = fd;
    
    if (daemon->doing_ra)
-     ra_start_unsolicted(now, NULL);
+     ra_start_unsolicited(now, NULL);
 }
 
-void ra_start_unsolicted(time_t now, struct dhcp_context *context)
+void ra_start_unsolicited(time_t now, struct dhcp_context *context)
 {   
    /* init timers so that we do ra's for some/all soon. some ra_times will end up zeroed
      if it's not appropriate to advertise those contexts.

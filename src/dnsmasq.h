@@ -1493,7 +1493,7 @@ void put_opt6_string(char *s);
 void ra_init(time_t now);
 void icmp6_packet(time_t now);
 time_t periodic_ra(time_t now);
-void ra_start_unsolicted(time_t now, struct dhcp_context *context);
+void ra_start_unsolicited(time_t now, struct dhcp_context *context);
 #endif
 
 /* slaac.c */ 
