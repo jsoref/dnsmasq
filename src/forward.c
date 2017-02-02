@@ -1326,7 +1326,7 @@ void receive_query(struct listener *listen, time_t now)
 	{
 	  struct irec *iface;
 	  
-	  /* get the netmask of the interface whch has the address we were sent to.
+	  /* get the netmask of the interface which has the address we were sent to.
 	     This is no neccessarily the interface we arrived on. */
 	  
 	  for (iface = daemon->interfaces; iface; iface = iface->next)
