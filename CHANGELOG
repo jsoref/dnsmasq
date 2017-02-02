@@ -854,7 +854,7 @@ version 2.64
 	    for the patch.
 
 	    Fix breakage of --host-record parsing, resulting in
-	    infinte loop at startup. Regression in 2.63. Thanks to
+	    infinite loop at startup. Regression in 2.63. Thanks to
 	    Haim Gelfenbeyn for spotting this.
 
 	    Set SO_REUSEADDRESS and SO_V6ONLY options on the DHCPv6

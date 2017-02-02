@@ -783,7 +783,7 @@ void lease_set_expires(struct dhcp_lease *lease, unsigned int len, time_t now)
     {
       exp = now + (time_t)len;
       /* Check for 2038 overflow. Make the lease
-	 inifinite in that case, as the least disruptive
+	 infinite in that case, as the least disruptive
 	 thing we can do. */
       if (difftime(exp, now) <= 0.0)
 	exp = 0;
