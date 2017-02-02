@@ -2476,7 +2476,7 @@ version 2.42
 
 	    Fix OS detection logic to cope with GNU/FreeBSD.
 
-	    Fix unitialised variable in DBus code - thanks to Roy
+	    Fix uninitialised variable in DBus code - thanks to Roy
 	    Marples.
 
 	    Fix network enumeration code to work on later NetBSD -
