@@ -150,7 +150,7 @@ A: [note: this was written in September 2003, things may well change.]
    domain) return the address of a host at Versign which runs a web
    server showing a search page. Most right-thinking people regard
    this new behaviour as broken :-).  You can test to see if you are
-   suffering Versign brokeness by run a command like 
+   suffering Versign brokenness by run a command like 
    
    host jlsdajkdalld.com
 
