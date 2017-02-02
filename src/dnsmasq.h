@@ -789,7 +789,7 @@ struct pxe_service {
 #define MATCH_REMOTE     4
 #define MATCH_SUBSCRIBER 5
 
-/* vendorclass, userclass, remote-id or cicuit-id */
+/* vendorclass, userclass, remote-id or circuit-id */
 struct dhcp_vendor {
   int len, match_type;
   unsigned int enterprise;
