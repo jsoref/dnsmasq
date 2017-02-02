@@ -176,7 +176,7 @@ int in_arpa_name_2_addr(char *namein, struct all_addr *addrp)
   if (hostname_isequal(lastchunk, "arpa") && hostname_isequal(penchunk, "in-addr"))
     {
       /* IP v4 */
-      /* address arives as a name of the form
+      /* address arrives as a name of the form
 	 www.xxx.yyy.zzz.in-addr.arpa
 	 some of the low order address octets might be missing
 	 and should be set to zero. */
