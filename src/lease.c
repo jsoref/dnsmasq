@@ -70,7 +70,7 @@ void lease_init(time_t now)
      Check various buffers are big enough for the code below */
 
 #if (DHCP_BUFF_SZ < 255) || (MAXDNAME < 64) || (PACKETSZ+MAXDNAME+RRFIXEDSZ  < 764)
-# error Buffer size breakage in leasfile parsing. 
+# error Buffer size breakage in leasefile parsing. 
 #endif
 
   if (leasestream)
