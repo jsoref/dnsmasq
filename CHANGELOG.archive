@@ -1761,7 +1761,7 @@ version 2.28
 	    Eric House and Eric Spakman for help in chasing this down.
 
 	    Tolerate configuration screwups which lead to the DHCP
-	    server attemping to allocate its own address to a
+	    server attempting to allocate its own address to a
 	    client; eg setting the whole subnet range as a DHCP
 	    range. Addresses in use by the server are now excluded
 	    from use by clients.
