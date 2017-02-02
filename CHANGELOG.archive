@@ -392,7 +392,7 @@ release 1.11  Actually implement the -R flag promised in the 1.10 man page.
               up early: dnsmasq would know this but anything with the
               name cached with long TTL would not be updated.
 
-	      Extended HAVE_IPV6 config flag to allow compliation on
+	      Extended HAVE_IPV6 config flag to allow compilation on
 	      old systems which don't have modern library routines
 	      like inet_ntop(). Thanks to Phil Harman for the patch.
 
