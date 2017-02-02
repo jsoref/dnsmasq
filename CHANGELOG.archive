@@ -2273,7 +2273,7 @@ version 2.40
 	    this.
 
 	    Use client-id as hash-seed for DHCP address allocation
-	    with Firewire and Infiniband, as these don't supply an MAC
+	    with Firewire and InfiniBand, as these don't supply an MAC
 	    address. 
 
 	    Tweaked TFTP file-open code to make it behave sensibly
