@@ -1038,7 +1038,7 @@ void reply_query(int fd, int family, time_t now)
 	      if (!forward->dependent)
 		break;
 	      
-	      /* validated subsdiary query, (and cached result)
+	      /* validated subsidiary query, (and cached result)
 		 pop that and return to the previous query we were working on. */
 	      struct frec *prev = forward->dependent;
 	      free_frec(forward);
