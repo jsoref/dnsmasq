@@ -1387,7 +1387,7 @@ static struct dhcp_netid *add_options(struct state *state, int do_refresh)
       unsigned int lease_time = 0xffffffff;
       
       /* Find the smallest lease tie of all contexts,
-	 subjext to the RFC-4242 stipulation that this must not 
+	 subject to the RFC-4242 stipulation that this must not 
 	 be less than 600. */
       for (c = state->context; c; c = c->next)
 	if (c->lease_time < lease_time)
