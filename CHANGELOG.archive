@@ -324,7 +324,7 @@ release 1.10  Log warnings if resolv.conf or dhcp.leases are not
 	      Fixed wrong address printing in error message about
 	      no interface with address.
 
-	      Updated docs and split installation instuctions into setup.html.
+	      Updated docs and split installation instructions into setup.html.
 
 	      Fix bug in CNAME chasing code: One CNAME pointing
 	      to many A records would lose A records after the 
