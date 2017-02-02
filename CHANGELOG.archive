@@ -297,7 +297,7 @@ release 1.9   Fixes to rpm .spec files.
               required. The difference is not really visible with
               bloated libcs like glibc, but should dramatically reduce
               memory requirements when linked against ulibc for use on
-              embeded routers, and that's the point really. Thanks to
+              embedded routers, and that's the point really. Thanks to
               Matthew Natalier for prompting this.   
 
 	      Changed debug mode (-d) so that all logging appears on

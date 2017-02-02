@@ -1117,7 +1117,7 @@ int do_script_run(time_t now)
 }
 
 #ifdef HAVE_SCRIPT
-/* delim == -1 -> delim = 0, but embeded 0s, creating extra records, are OK. */
+/* delim == -1 -> delim = 0, but embedded 0s, creating extra records, are OK. */
 void lease_add_extradata(struct dhcp_lease *lease, unsigned char *data, unsigned int len, int delim)
 {
   unsigned int i;
@@ -1125,7 +1125,7 @@ void lease_add_extradata(struct dhcp_lease *lease, unsigned char *data, unsigned
   if (delim == -1)
     delim = 0;
   else
-    /* check for embeded NULLs */
+    /* check for embedded NULLs */
     for (i = 0; i < len; i++)
       if (data[i] == 0)
 	{
