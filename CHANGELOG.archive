@@ -574,7 +574,7 @@ release 1.18  Added round-robin DNS for names which have more than one
 	      forwarded because -D is in effect, return NXDOMAIN not
 	      an empty reply.
 
-	      Add code to return the software version in repsonse to the
+	      Add code to return the software version in response to the
 	      correct magic query in the same way as BIND. Use  
 	      "dig version.bind chaos txt" to make the query.
 
@@ -1193,7 +1193,7 @@ version 2.14
 
 version 2.15
             Fixed NXDOMAIN/NODATA confusion for locally known
-            names. We now return a NODATA reponse for names which are
+            names. We now return a NODATA response for names which are
             locally known. Now a query for (eg AAAA or MX) for a name
 	    with an IPv4 address in /etc/hosts which fails upstream
             will generate a NODATA response. Note that the query 
