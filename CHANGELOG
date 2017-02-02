@@ -155,7 +155,7 @@ version 2.76
             Fix PXE booting for UEFI architectures. Modify PXE boot
 	    sequence in this case to force the client to talk to dnsmasq
 	    over port 4011. This makes PXE and especially proxy-DHCP PXE
-	    work with these archictectures.
+	    work with these architectures.
 
 	    Workaround problems with UEFI PXE clients. There exist
 	    in the wild PXE clients which have problems with PXE
