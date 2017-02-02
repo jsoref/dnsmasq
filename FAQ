@@ -59,7 +59,7 @@ A: Yes, there is explicit support for *BSD and MacOS X and Solaris.
  
 Q: My company's nameserver knows about some names which aren't in the
    public DNS. Even though I put it first in /etc/resolv.conf, it
-   dosen't work: dnsmasq seems not to use the nameservers in the order
+   doesn't work: dnsmasq seems not to use the nameservers in the order
    given. What am I doing wrong?
 
 A: By default, dnsmasq treats all the nameservers it knows about as
