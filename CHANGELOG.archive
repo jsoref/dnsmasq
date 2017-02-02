@@ -386,7 +386,7 @@ release 1.11  Actually implement the -R flag promised in the 1.10 man page.
               names in /etc/hosts -suggestion from Phil Harman.
 
 	      Always return a zero time-to-live for names derived from 
-	      DHCP which stops anthing else caching these
+	      DHCP which stops anything else caching these
               names. Previously the TTL was derived from the lease
               time but that is incorrect since a lease can be given
               up early: dnsmasq would know this but anything with the
