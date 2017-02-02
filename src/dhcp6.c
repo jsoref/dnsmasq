@@ -344,7 +344,7 @@ static int complete_context6(struct in6_addr *local,  int prefix,
 		    {
 		      struct dhcp_context *tmp, **up;
 		      
-		      /* use interface values only for contructed contexts */
+		      /* use interface values only for constructed contexts */
 		      if (!(context->flags & CONTEXT_CONSTRUCTED))
 			preferred = valid = 0xffffffff;
 		      else if (flags & IFACE_DEPRECATED)

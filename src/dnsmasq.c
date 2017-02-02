@@ -818,7 +818,7 @@ int main (int argc, char **argv)
     my_syslog(MS_DHCP | LOG_INFO, _("DHCP, sockets bound exclusively to interface %s"), bound_device);
 #  endif
 
-  /* after dhcp_contruct_contexts */
+  /* after dhcp_construct_contexts */
   if (daemon->dhcp || daemon->doing_dhcp6)
     lease_find_interfaces(now);
 #endif

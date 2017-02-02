@@ -413,7 +413,7 @@ void lease_ping_reply(struct in6_addr *sender, unsigned char *packet, char *inte
 
 void lease_update_slaac(time_t now)
 {
-  /* Called when we contruct a new RA-names context, to add putative
+  /* Called when we construct a new RA-names context, to add putative
      new SLAAC addresses to existing leases. */
 
   struct dhcp_lease *lease;

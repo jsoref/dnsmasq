@@ -415,7 +415,7 @@ version 2.70
 
 version 2.69
 	    Implement dynamic interface discovery on *BSD. This allows
-	    the contructor: syntax to be used in dhcp-range for DHCPv6
+	    the constructor: syntax to be used in dhcp-range for DHCPv6
 	    on the BSD platform. Thanks to Matthias Andree for
 	    valuable research on how to implement this.
 
@@ -553,11 +553,11 @@ version 2.68
 	    names as well as address literals. This makes it possible
 	    to configure authoritative DNS when local address ranges
 	    are dynamic and works much better than the previous
-	    work-around which exempted contructed DHCP ranges from the
+	    work-around which exempted constructed DHCP ranges from the
 	    IP address filtering. As a consequence, that work-around
 	    is removed. Under certain circumstances, this change wil
 	    break existing configuration: if you're relying on the
-	    contructed-range exception, you need to change --auth-zone
+	    constructed-range exception, you need to change --auth-zone
 	    to specify the same interface as is used to construct your
 	    DHCP ranges, probably with a trailing "/6" like this: 
 	    --auth-zone=example.com,eth0/6 to limit the addresses to
