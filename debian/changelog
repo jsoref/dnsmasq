@@ -1126,13 +1126,13 @@ dnsmasq (1.11-2) unstable; urgency=low
 
 dnsmasq (1.11-1) unstable; urgency=low
 
-   * New uptream.
+   * New upstream.
   
  -- Simon Kelley <simon@thekelleys.org.uk>  Tues, 12 Jan 2003 22:25:17 -0100
 
 dnsmasq (1.10-1) unstable; urgency=low
 
-   * New uptream.
+   * New upstream.
    * Force service to stop in postinst before restarting. I don't
      understand the circumstances under which it would still be running at
      this point, but this is the correct fix anyway. (closes: #169718) 
@@ -1144,7 +1144,7 @@ dnsmasq (1.10-1) unstable; urgency=low
 
 dnsmasq (1.9-1) unstable; urgency=low
 
-   * New uptream.
+   * New upstream.
   
  -- Simon Kelley <simon@thekelleys.org.uk>  Mon, 23 Sept 2002 21:35:07 -0100
 
