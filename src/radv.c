@@ -780,7 +780,7 @@ time_t periodic_ra(time_t now)
 	   associated with it, because it's for a subnet we dont 
 	   have an interface on. Probably we're doing DHCP on
 	   a remote subnet via a relay. Zero the timer, since we won't
-	   ever be able to send ra's and satistfy it. */
+	   ever be able to send ra's and satisfy it. */
 	context->ra_time = 0;
       
       if (param.iface != 0 &&
