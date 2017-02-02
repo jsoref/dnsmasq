@@ -240,7 +240,7 @@ Q: What are these strange "bind-interface" and "bind-dynamic" options?
 
 A: Dnsmasq from v2.63 can operate in one of three different "networking
    modes". This is unfortunate as it requires users configuring dnsmasq
-   to take into account some rather bizzare contraints and select the
+   to take into account some rather bizarre contraints and select the
    mode which best fits the requirements of a particular installation.
    The origin of these are deficiencies in the Unix networking
    model and APIs and each mode has different advantages and
