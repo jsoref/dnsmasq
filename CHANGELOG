@@ -1326,7 +1326,7 @@ version 2.56
 	    the DHCP subsystem. Thanks to Olaf Westrik for the patch.
 
 	    Omit timestamps from logs when a) logging to stderr and 
-	    b) --keep-in-forground is set. The logging facility on the
+	    b) --keep-in-foreground is set. The logging facility on the
 	    other end of stderr can be assumed to supply them. Thanks
 	    to John Hallam for the patch.
 
