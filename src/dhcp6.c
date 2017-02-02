@@ -252,7 +252,7 @@ void dhcp6_packet(time_t now)
 
 void get_client_mac(struct in6_addr *client, int iface, unsigned char *mac, unsigned int *maclenp, unsigned int *mactypep, time_t now)
 {
-  /* Recieving a packet from a host does not populate the neighbour
+  /* Receiving a packet from a host does not populate the neighbour
      cache, so we send a neighbour discovery request if we can't 
      find the sender. Repeat a few times in case of packet loss. */
   
