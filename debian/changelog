@@ -923,7 +923,7 @@ dnsmasq (2.6-3) unstable; urgency=low
 
    * Removed reload command from start script and moved force-reload
      to be equivalent to restart. This is needed to be policy compliant
-     since SIHGUP doesn't cause dnsmasq to reload its configuration file,
+     since SIGHUP doesn't cause dnsmasq to reload its configuration file,
      only the /etc/hosts, /etc/resolv.conf etc. (closes: #244208)
 	
  -- Simon Kelley <simon@thekelleys.org.uk>  Sun, 18 Apr 2004 14:40:51 +0000
