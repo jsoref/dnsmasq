@@ -1387,7 +1387,7 @@ version 2.56
 	    an NODATA reply for IPv6 (or vice-versa). So
 	    --address=/google.com/1.2.3.4 stops IPv6 queries for
 	    *google.com from being forwarded. Make it possible to
-	    override this behaviour by defining the sematics if the
+	    override this behaviour by defining the semantics if the
 	    same domain appears in  both --server and --address.
 	    In that case, the --address has priority for the address
 	    family in which is appears, but the --server has priority
