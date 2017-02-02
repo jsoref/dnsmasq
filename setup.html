@@ -86,8 +86,8 @@ uses that to write a file suitable for dnsmasq.
 <PRE>
 
 echo -n >|/etc/dhcpc/resolv.conf
-dnsservs=${DNS//,/ }
-for serv in $dnsservs; do
+dnsservers=${DNS//,/ }
+for serv in $dnsservers; do
     echo "nameserver $serv" >>/etc/dhcpc/resolv.conf
 done
 
