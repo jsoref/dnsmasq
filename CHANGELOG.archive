@@ -745,7 +745,7 @@ release 2.3
 	     around a bug in the DHCP client in HP Jetdirect printers.
 	     Thanks to Marko Stolle for finding this problem.
 
-	     Return DHCP T1 and T2 times, with "fuzz" to desychronise lease
+	     Return DHCP T1 and T2 times, with "fuzz" to desynchronise lease
 	     renewals, as specified in the RFC.
 	     
 	     Ensure that the END option is always present in DHCP
