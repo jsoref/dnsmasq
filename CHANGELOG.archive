@@ -1049,7 +1049,7 @@ release 2.9
 	     first name found is now returned for reverse lookups,
 	     rather than all of them.
 
-	     Add back fatal errors when nonexistant 
+	     Add back fatal errors when nonexistent 
 	     interfaces or interface addresses are given but only in
 	     "bind-interfaces" mode. Principle of least surprise applies.
 	     
