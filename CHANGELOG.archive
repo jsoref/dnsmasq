@@ -2417,7 +2417,7 @@ version 2.41
 	    Changed behavior of DHCP server to always return total length of
 	    a new lease in DHCPOFFER, even if an existing lease
 	    exists. (It used to return the time remaining on the lease
-	    whne one existed.) This fixes problems with the Sony Ericsson
+	    when one existed.) This fixes problems with the Sony Ericsson
 	    K610i phone. Thanks to Hakon Stordahl for finding and
 	    fixing this.
 
