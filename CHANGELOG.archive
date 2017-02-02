@@ -214,7 +214,7 @@ release 1.3   Some versions of the Linux kernel return EINVAL rather
               starting, rather than after the first query - principle 
               of least surprise applies here.     
 
-release 1.4   Fix a bug with DHPC lease parsing which broke in
+release 1.4   Fix a bug with DHCP lease parsing which broke in
               non-UTC timezones. Thanks to Mark Wormgoor for
               spotting and diagnosing this. Fixed versions in
               the .spec files this time. Fixed bug in Suse startup
@@ -674,7 +674,7 @@ release 2.1
              
              Fix unaligned access warnings on BSD/Alpha.
 
-	     Allow empty DHCP options, like so: dhpc-option=44
+	     Allow empty DHCP options, like so: dhcp-option=44
  
              Allow single-byte DHCP options like so: dhcp-option=20,1
 
