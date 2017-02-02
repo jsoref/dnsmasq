@@ -354,7 +354,7 @@ Addendum:
    involve setting client-IDs. It's possible to put more than one MAC
    address in a --dhcp-host configuration. This tells dnsmasq that it
    should use the specified IP for any of the specified MAC addresses,
-   and furthermore it gives dnsmasq permission to sumarily abandon a
+   and furthermore it gives dnsmasq permission to summarily abandon a
    lease to one of the MAC addresses if another one comes along. Note
    that this will work fine only as longer as only one interface is
    up at any time. There is no way for dnsmasq to enforce this
