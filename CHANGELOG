@@ -733,7 +733,7 @@ version 2.67
 	    suggestion. 
 
 	    Avoid treating a --dhcp-host which has an IPv6 address
-	    as eligable for use with DHCPv4 on the grounds that it has
+	    as eligible for use with DHCPv4 on the grounds that it has
 	    no address, and vice-versa. Thanks to Yury Konovalov for
 	    spotting the problem.
 
