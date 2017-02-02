@@ -22,7 +22,7 @@
  
  IP is an IPv6 adress to release
  
- If --dry-run is specified, dhcp_release6 just prints hexadecimal represantation of
+ If --dry-run is specified, dhcp_release6 just prints hexadecimal representation of
  packet to send to stdout and exits.
  
  If --help is specified, dhcp_release6 print usage information to stdout and exits
