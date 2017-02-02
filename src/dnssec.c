@@ -670,7 +670,7 @@ static void sort_rrset(struct dns_header *header, size_t plen, u16 *rr_desc, int
 
 static unsigned char **rrset = NULL, **sigs = NULL;
 
-/* Get pointers to RRset menbers and signature(s) for same.
+/* Get pointers to RRset members and signature(s) for same.
    Check signatures, and return keyname associated in keyname. */
 static int explore_rrset(struct dns_header *header, size_t plen, int class, int type, 
 			 char *name, char *keyname, int *sigcnt, int *rrcnt)
