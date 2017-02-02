@@ -1593,7 +1593,7 @@ version 2.24
 	    than one dhcp-range is available. Thanks to Sorin Panca
 	    for help chasing this down.
 
-	    Added more explict error mesages to the hosts file and
+	    Added more explicit error mesages to the hosts file and
 	    ethers file reading code. Markus Kaiserswerth suffered to
 	    make this happen.
 

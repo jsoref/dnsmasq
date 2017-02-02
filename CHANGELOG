@@ -1058,7 +1058,7 @@ version 2.61
 
 	    Updated French translation. Thanks to Gildas Le Nadan.
 
-	    Give correct from-cache answers to explict CNAME queries.
+	    Give correct from-cache answers to explicit CNAME queries.
 	    Thanks to Rob Zwissler for spotting this.
 	    
 	    Add --tftp-lowercase option. Thanks to Oliver Rath for the

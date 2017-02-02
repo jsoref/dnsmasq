@@ -100,7 +100,7 @@ void lease_init(time_t now)
 	    (lease = lease4_allocate(addr.addr.addr4)))
 	  {
 	    hw_len = parse_hex(daemon->dhcp_buff2, (unsigned char *)daemon->dhcp_buff2, DHCP_CHADDR_MAX, NULL, &hw_type);
-	    /* For backwards compatibility, no explict MAC address type means ether. */
+	    /* For backwards compatibility, no explicit MAC address type means ether. */
 	    if (hw_type == 0 && hw_len != 0)
 	      hw_type = ARPHRD_ETHER; 
 
