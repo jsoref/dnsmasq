@@ -1867,7 +1867,7 @@ version 2.47
 
 	    Updated config.h to use the same location for the lease
 	    file on NetBSD as the other *BSD variants. Also allow
-	    LEASEFILE and CONFFILE symbols to be overriden in CFLAGS.  
+	    LEASEFILE and CONFFILE symbols to be overridden in CFLAGS.  
 
             Handle duplicate address detection on IPv6 more
             intelligently. In IPv6, an interface can have an address
