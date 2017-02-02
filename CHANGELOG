@@ -716,7 +716,7 @@ version 2.67
 	    Fix problem in DHCPv6 vendorclass/userclass matching
 	    code. Thanks to Tanguy Bouzeloc for the patch.
 
- 	    Update Spanish transalation. Thanks to Vicente Soriano.
+ 	    Update Spanish translation. Thanks to Vicente Soriano.
 
 	    Add --ra-param option. Thanks to Vladislav Grishenko for
 	    inspiration on this.
