@@ -336,7 +336,7 @@ unsigned char *skip_section(unsigned char *ansp, int count, struct dns_header *h
 }
 
 /* CRC the question section. This is used to safely detect query 
-   retransmision and to detect answers to questions we didn't ask, which 
+   retransmission and to detect answers to questions we didn't ask, which 
    might be poisoning attacks. Note that we decode the name rather 
    than CRC the raw bytes, since replies might be compressed differently. 
    We ignore case in the names for the same reason. Return all-ones
