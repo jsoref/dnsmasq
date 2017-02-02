@@ -118,7 +118,7 @@ static int dhcp6_maybe_relay(struct state *state, void *inbuff, size_t sz,
   void *opt;
   struct dhcp_vendor *vendor;
 
-  /* if not an encaplsulated relayed message, just do the stuff */
+  /* if not an encapsulated relayed message, just do the stuff */
   if (msg_type != DHCP6RELAYFORW)
     {
       /* if link_address != NULL if points to the link address field of the 
