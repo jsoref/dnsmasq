@@ -596,7 +596,7 @@ struct dhcp_context *narrow_context(struct dhcp_context *context,
 {
   /* We start of with a set of possible contexts, all on the current physical interface.
      These are chained on ->current.
-     Here we have an address, and return the actual context correponding to that
+     Here we have an address, and return the actual context corresponding to that
      address. Note that none may fit, if the address came a dhcp-host and is outside
      any dhcp-range. In that case we return a static range if possible, or failing that,
      any context on the correct subnet. (If there's more than one, this is a dodgy 
