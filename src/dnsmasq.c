@@ -1680,7 +1680,7 @@ static void check_dns_listeners(time_t now)
 		}
 
 #ifndef NO_FORK
-	      /* Arrange for SIGALARM after CHILD_LIFETIME seconds to
+	      /* Arrange for SIGALRM after CHILD_LIFETIME seconds to
 		 terminate the process. */
 	      if (!option_bool(OPT_DEBUG))
 		alarm(CHILD_LIFETIME);
