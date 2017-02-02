@@ -202,12 +202,12 @@ int main (int argc, char **argv)
 
 #ifdef HAVE_SOLARIS_NETWORK
   if (daemon->max_logs != 0)
-    die(_("asychronous logging is not available under Solaris"), NULL, EC_BADCONF);
+    die(_("asynchronous logging is not available under Solaris"), NULL, EC_BADCONF);
 #endif
   
 #ifdef __ANDROID__
   if (daemon->max_logs != 0)
-    die(_("asychronous logging is not available under Android"), NULL, EC_BADCONF);
+    die(_("asynchronous logging is not available under Android"), NULL, EC_BADCONF);
 #endif
 
 #ifndef HAVE_AUTH
