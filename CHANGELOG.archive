@@ -471,7 +471,7 @@ release 1.14  Fixed man page description of -b option which confused
 	      /etc/resolv.conf.
 	      (Thanks to Klaas Teschauer)
 	      
-	      Check that recieved queries have only rfc1035-legal characters
+	      Check that received queries have only rfc1035-legal characters
 	      in them. This check is mainly to avoid bad strings being
 	      sent to syslog.
 

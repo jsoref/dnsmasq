@@ -1576,7 +1576,7 @@ size_t answer_request(struct dns_header *header, char *limit, size_t qlen,
 		{
 		  int localise = 0;
 		  
-		  /* See if a putative address is on the network from which we recieved
+		  /* See if a putative address is on the network from which we received
 		     the query, is so we'll filter other answers. */
 		  if (local_addr.s_addr != 0 && option_bool(OPT_LOCALISE) && flag == F_IPV4)
 		    {

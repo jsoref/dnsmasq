@@ -262,7 +262,7 @@ static int dhcp6_no_relay(struct state *state, int msg_type, void *inbuff, size_
   state->hostname_auth = 0;
   state->hostname = NULL;
   state->client_hostname = NULL;
-  state->fqdn_flags = 0x01; /* default to send if we recieve no FQDN option */
+  state->fqdn_flags = 0x01; /* default to send if we receive no FQDN option */
 #ifdef OPTION6_PREFIX_CLASS
   state->send_prefix_class = NULL;
 #endif

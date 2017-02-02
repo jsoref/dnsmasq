@@ -252,10 +252,10 @@ A: Dnsmasq from v2.63 can operate in one of three different "networking
    The three modes are "wildcard", "bind-interfaces" and "bind-dynamic".
 
    In "wildcard" mode, dnsmasq binds the wildcard IP address (0.0.0.0 or
-   ::). This allows it to recieve all the packets sent to the server on
+   ::). This allows it to receive all the packets sent to the server on
    the relevant port. Access control (--interface, --except-interface,
    --listen-address, etc) is implemented by dnsmasq: it queries the
-   kernel to determine the interface on which a packet was recieved and
+   kernel to determine the interface on which a packet was received and
    the address to which it was sent, and applies the configured
    rules. Wildcard mode is the default if neither of the other modes are
    specified. 

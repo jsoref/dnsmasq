@@ -82,7 +82,7 @@ void ra_init(time_t now)
   /* ensure this is around even if we're not doing DHCPv6 */
   expand_buf(&daemon->outpacket, sizeof(struct dhcp_packet));
  
-  /* See if we're guessing SLAAC addresses, if so we need to recieve ping replies */
+  /* See if we're guessing SLAAC addresses, if so we need to receive ping replies */
   for (context = daemon->dhcp6; context; context = context->next)
     if ((context->flags & CONTEXT_RA_NAME))
       break;
