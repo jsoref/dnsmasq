@@ -1014,7 +1014,7 @@ dnsmasq (2.0-1) unstable; urgency=low
      the leases file of ISC DHCP and replaces it with a built-in 
      DHCP server. Apologies in advance for breaking backwards 
      compatibilty, but this replaces a bit of a hack (the ISC stuff)
-     with a nicely engineered and much more apropriate solution.
+     with a nicely engineered and much more appropriate solution.
      Wearing my upstream-maintainer hat, I want to lose the hack now,
      rather than have to support it into Sarge.
    * New upstream closes some bugs since they become 
