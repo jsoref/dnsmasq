@@ -1314,7 +1314,7 @@ version 2.19
 	    Thanks to Richard Atterer for the bug report.
 
 	    Check for under-length option fields in DHCP packets, a
-	    zero length client-id, in particluar, could seriously
+	    zero length client-id, in particular, could seriously
 	    confuse dnsmasq 'till now. Thanks to Will Murname for help
 	    with that.
 
