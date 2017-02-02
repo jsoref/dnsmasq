@@ -2128,7 +2128,7 @@ int dnssec_validate_reply(time_t now, struct dns_header *header, size_t plen, ch
 		   /* An attacker replay a wildcard answer with a different
 		      answer and overlay a genuine RR. To prove this
 		      hasn't happened, the answer must prove that
-		      the gennuine record doesn't exist. Check that here. 
+		      the genuine record doesn't exist. Check that here. 
 		      Note that we may not yet have validated the NSEC/NSEC3 RRsets. 
 		      That's not a problem since if the RRsets later fail
 		      we'll return BOGUS then. */
