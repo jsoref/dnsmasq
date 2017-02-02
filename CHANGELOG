@@ -999,7 +999,7 @@ version 2.61
 	    Invoke the DHCP script with action "tftp" when a TFTP file
 	    transfer completes. The size of the file, address to which
 	    it was sent and complete pathname are supplied. Note that
-	    version 2.60 introduced some script incompatibilties
+	    version 2.60 introduced some script incompatibilities
 	    associated with DHCPv6, and this is a further change. To
 	    be safe, scripts should ignore unknown actions, and if
 	    not IPv6-aware, should exit if the environment
