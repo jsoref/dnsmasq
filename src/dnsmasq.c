@@ -655,7 +655,7 @@ int main (int argc, char **argv)
 	     (1 << CAP_NET_ADMIN) | (1 << CAP_NET_RAW);
 	  data->inheritable = 0;
 	  
-	  /* lose the setuid and setgid capbilities */
+	  /* lose the setuid and setgid capabilities */
 	  if (capset(hdr, data) == -1)
 	    {
 	      send_event(err_pipe[1], EVENT_CAP_ERR, errno, NULL);
