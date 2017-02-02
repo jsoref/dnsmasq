@@ -4,7 +4,7 @@ reboot, then it will eventually be restored as hosts renew their
 leases. Until a host renews (which may take hours/days) it will
 not exist in the DNS if dnsmasq's DDNS function is in use.
 
-*WRT systems remount all non-volatile fileystems read-only after boot,
+*WRT systems remount all non-volatile filesystems read-only after boot,
 so the normal leasefile will not work. They do, however have NV
 storage, accessed with the nvram command:
 
