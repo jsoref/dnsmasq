@@ -191,7 +191,7 @@ release 1.1   Added --user argument to allow user to change to
 
 release 1.2   Added IPv6 DNS record support. AAAA records are cached
               and read from /etc/hosts. Reverse-lookups in the
-	      ip6.int and ip6.arpa domains are suppored. Dnsmasq can
+	      ip6.int and ip6.arpa domains are supported. Dnsmasq can
               talk to upstream servers via IPv6 if it finds IP6 addresses
               in /etc/resolv.conf and it offers DNS service automatically
               if IPv6 support is present in the kernel.
