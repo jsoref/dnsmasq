@@ -2307,7 +2307,7 @@ version 2.40
 	    Continue to use unqualified hostnames provided by DHCP
 	    clients, even if the domain part is illegal. (The domain
 	    is	ignored, and an error logged.) Previously in this
-	    situation, the whole name whould have been
+	    situation, the whole name would have been
 	    rejected. Thanks to Jima for the patch.
 	    
 	    Handle EINTR returns from wait() correctly and reap
