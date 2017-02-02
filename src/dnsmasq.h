@@ -125,7 +125,7 @@ typedef unsigned long long u64;
 #if defined(HAVE_LINUX_NETWORK)
 #include <linux/capability.h>
 /* There doesn't seem to be a universally-available 
-   userpace header for these. */
+   userspace header for these. */
 extern int capset(cap_user_header_t header, cap_user_data_t data);
 extern int capget(cap_user_header_t header, cap_user_data_t data);
 #define LINUX_CAPABILITY_VERSION_1  0x19980330
