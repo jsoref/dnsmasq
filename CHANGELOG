@@ -1349,7 +1349,7 @@ version 2.56
 	    --local=/thekelleys.org.uk/
 	    --local=/0.168.192.in-addr.arpa/ 
 
-	    Tighten up syntax checking of hex contants in the config
+	    Tighten up syntax checking of hex constants in the config
 	    file.  Thanks to Fred Damen for spotting this.
 
 	    Add dnsmasq logo/icon, contributed by Justin Swift. Many
