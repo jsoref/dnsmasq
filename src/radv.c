@@ -400,7 +400,7 @@ static void send_ra_alias(time_t now, int iface, char *iface_name, struct in6_ad
     }
 
 #ifdef HAVE_LINUX_NETWORK
-  /* Note that IPv6 MTU is not necessarilly the same as the IPv4 MTU
+  /* Note that IPv6 MTU is not neccessarily the same as the IPv4 MTU
      available from SIOCGIFMTU */
   sprintf(daemon->namebuff, "/proc/sys/net/ipv6/conf/%s/mtu", iface_name);
   if ((f = fopen(daemon->namebuff, "r")))
