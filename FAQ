@@ -313,7 +313,7 @@ Q: Can I get email notification when a new version of dnsmasq is
    released?
 
 A: Yes, new releases of dnsmasq are always announced through
-   freshmeat.net, and they allow you to subcribe to email alerts when
+   freshmeat.net, and they allow you to subscribe to email alerts when
    new versions of particular projects are released. New releases are
    also announced in the dnsmasq-discuss mailing list, subscribe at 
    http://lists.thekelleys.org.uk/mailman/listinfo/dnsmasq-discuss

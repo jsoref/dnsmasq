@@ -774,7 +774,7 @@ version 2.66
 	    the local DNS server if dnsmasq is configured to not act
 	    as DNS server, or it's configured to a non-standard port.
  
-            Add DNSMASQ_CIRCUIT_ID, DNSMASQ_SUBCRIBER_ID,
+            Add DNSMASQ_CIRCUIT_ID, DNSMASQ_SUBSCRIBER_ID,
             DNSMASQ_REMOTE_ID variables to the environment of the
             lease-change script (and the corresponding Lua). These hold
             information inserted into the DHCP request by a DHCP relay
