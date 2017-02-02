@@ -1799,7 +1799,7 @@ unsigned char *tcp_request(int confd, time_t now,
 		  unsigned int crc = questions_crc(header, (unsigned int)size, daemon->namebuff);
 #endif		  
 		  /* Loop round available servers until we succeed in connecting to one.
-		     Note that this code subtley ensures that consecutive queries on this connection
+		     Note that this code subtly ensures that consecutive queries on this connection
 		     which can go to the same server, do so. */
 		  while (1) 
 		    {
