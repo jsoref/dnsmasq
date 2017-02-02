@@ -270,7 +270,7 @@ HAVE_SOCKADDR_SA_LEN
       defined(__DragonFly__) || \
       defined(__FreeBSD_kernel__)
 #define HAVE_BSD_NETWORK
-/* Later verions of FreeBSD have getopt_long() */
+/* Later versions of FreeBSD have getopt_long() */
 #if defined(optional_argument) && defined(required_argument)
 #   define HAVE_GETOPT_LONG
 #endif

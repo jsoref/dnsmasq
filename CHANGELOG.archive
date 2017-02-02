@@ -1027,7 +1027,7 @@ release 2.9
 	     unqualified domains introduced in version 2.8 
 	      
 	     Allow fallback to "bind-interfaces" at runtime: Some
-	     verions of *BSD seem to have enough stuff in the header
+	     versions of *BSD seem to have enough stuff in the header
 	     files to build but no kernel support. Also now log if
 	     "bind-interfaces" is forced on.
 
