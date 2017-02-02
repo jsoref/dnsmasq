@@ -1617,7 +1617,7 @@ version 2.25
 
             Fixed Suse spec file - thanks to Steven Springl.
 
-	    Fixed DHCP bug when two distict subnets are on the same
+	    Fixed DHCP bug when two distinct subnets are on the same
 	    physical interface. Thanks to Pawel Zawora for finding
 	    this and suggesting the fix.
 
