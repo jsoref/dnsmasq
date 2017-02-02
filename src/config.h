@@ -21,7 +21,7 @@
 #define TCP_BACKLOG 32  /* kernel backlog limit for TCP connections */
 #define EDNS_PKTSZ 4096 /* default max EDNS.0 UDP packet from RFC5625 */
 #define SAFE_PKTSZ 1280 /* "go anywhere" UDP packet size */
-#define KEYBLOCK_LEN 40 /* choose to mininise fragmentation when storing DNSSEC keys */
+#define KEYBLOCK_LEN 40 /* choose to minimise fragmentation when storing DNSSEC keys */
 #define DNSSEC_WORK 50 /* Max number of queries to validate one question */
 #define TIMEOUT 10 /* drop UDP queries after TIMEOUT seconds */
 #define FORWARD_TEST 50 /* try all servers every 50 queries */
