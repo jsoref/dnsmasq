@@ -104,7 +104,7 @@ version 2.76
 
 	    Add --script-arp and two new functions for the dhcp-script.
 	    These are "arp" and "arp-old" which announce the arrival and
-	    removal of entries in the ARP or nieghbour tables.
+	    removal of entries in the ARP or neighbour tables.
 
 	    Extend --add-mac to allow a new encoding of the MAC address 
 	    as base64, by configuring --add-mac=base64
