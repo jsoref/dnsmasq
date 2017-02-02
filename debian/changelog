@@ -716,7 +716,7 @@ dnsmasq (2.26-1) unstable; urgency=high
 dnsmasq (2.25-1) unstable; urgency=low
 
    * Remove bashisms in postinst and prerm scripts.
-   * Remove misconcieved dependency on locales.	
+   * Remove misconceived dependency on locales.	
    * Depend on adduser.
 		
  -- Simon Kelley <simon@thekelleys.org.uk>  Thu, 01 Dec 2005 21:02:12 +0000
