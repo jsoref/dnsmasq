@@ -1046,7 +1046,7 @@ version 2.61
 	    SamLT for work on this.
 	    
 	    Don't cache data from non-recursive nameservers, since it
-	    may erroneously look like a valid CNAME to a non-exitant
+	    may erroneously look like a valid CNAME to a non-existent
 	    name. Thanks to Ben Winslow for finding this.
 
 	    Call SO_BINDTODEVICE on the DHCP socket(s) when doing DHCP
