@@ -549,7 +549,7 @@ release 1.16  Allow "/" characters in domain names - this fixes
 
 release 1.17  Fixed crash with DHCP hostnames > 40 characters.
 
-              Fixed name-comparision routines to not depend on Locale,
+              Fixed name-comparison routines to not depend on Locale,
               in theory this versions since 1.15 could lock up or give
               wrong results when run with locale != 'C'.
 
