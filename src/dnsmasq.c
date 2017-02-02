@@ -514,7 +514,7 @@ int main (int argc, char **argv)
 	     extent that an attacker running as the unprivileged  user could replace the pidfile with a 
 	     symlink, and have the target of that symlink overwritten as root next time dnsmasq starts. 
 
-	     The folowing code first deletes any existing file, and then opens it with the O_EXCL flag,
+	     The following code first deletes any existing file, and then opens it with the O_EXCL flag,
 	     ensuring that the open() fails should there be any existing file (because the unlink() failed, 
 	     or an attacker exploited the race between unlink() and open()). This ensures that no symlink
 	     attack can succeed. 
