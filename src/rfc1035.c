@@ -773,22 +773,37 @@ int extract_addresses(struct dns_header *header, size_t qlen, char *name, time_t
 		    {
 		      if (!cname_count--)
 			return 0; /* looped CNAMES */
-		      newc = cache_insert(name, NULL, now, attl, F_CNAME | F_FORWARD | secflag);
-		      if (newc)
-			{
-			  newc->addr.cname.target.cache = NULL;
-			  /* anything other than zero, to avoid being mistaken for CNAME to interface-name */ 
-			  newc->addr.cname.uid = 1; 
-			  if (cpp)
-			    {
-			      cpp->addr.cname.target.cache = newc;
-			      cpp->addr.cname.uid = newc->uid;
-			    }
-			}
 		      
-		      cpp = newc;
-		      if (attl < cttl)
-			cttl = attl;
+		      if (check_for_local_domain(name, now))
+			{
+			 /* if we forwarded a query for a locally known name (because it was
+			    for an unknown type) and the answer is NXDOMAIN, convert that to
+			    NODATA, since we know that the domain exists, even if upstream
+			    doesn't. */
+			 header->hb3 |= HB3_AA;
+			 SET_RCODE(header, NOERROR);
+			 *doctored = 1;
+			 secure = 0;
+			}
+		      else
+			{
+			  newc = cache_insert(name, NULL, now, attl, F_CNAME | F_FORWARD | secflag);
+			  if (newc)
+			    {
+			      newc->addr.cname.target.cache = NULL;
+			      /* anything other than zero, to avoid being mistaken for CNAME to interface-name */
+			      newc->addr.cname.uid = 1;
+			      if (cpp)
+				{
+				  cpp->addr.cname.target.cache = newc;
+				  cpp->addr.cname.uid = newc->uid;
+				}
+			}
+			
+			cpp = newc;
+			if (attl < cttl)
+			  cttl = attl;
+		      }
 		      
 		      if (!extract_name(header, qlen, &p1, name, 1, 0))
 			return 0;
@@ -1005,7 +1020,7 @@ int check_for_local_domain(char *name, time_t now)
 }
 
 /* Is the packet a reply with the answer address equal to addr?
-   If so mung is into an NXDOMAIN reply and also put that information
+   If so munge it into an NXDOMAIN reply and also put that information
    in the cache. */
 int check_for_bogus_wildcard(struct dns_header *header, size_t qlen, char *name, 
 			     struct bogus_addr *baddr, time_t now)
